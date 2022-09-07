@@ -1,6 +1,6 @@
 /**
  * This file contains the configuration for the API endpoints and tokens we use.
- *
+ *https://github.com/asagirrqume/asagir-index/blob/main/config/api.config.js
  * - If you are a OneDrive International user, you would not have to change anything here.
  * - If you are not the admin of your OneDrive for Business account, you may need to define your own clientId/clientSecret,
  *   check documentation for more details.
@@ -19,7 +19,7 @@ module.exports = {
 
   // These are the URLs of the OneDrive API endpoints. You would not need to change anything here if you are using OneDrive International
   // or E5 Subscription OneDrive for Business. You may need to change these if you are using OneDrive 世纪互联.
-  authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
+  authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token ',
   driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
 
   // The scope we require are listed here, in most cases you would not need to change this as well.
